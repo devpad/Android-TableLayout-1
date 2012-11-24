@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textStyle="bold"
+              android:gravity="center_horizontal"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="stretchColumns=0,3,5"/>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,3,5"
+            >
+        <TableRow>
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    />
+        </TableRow>
+    </TableLayout>
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textStyle="bold"
+              android:gravity="center_horizontal"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="stretchColumns=*"/>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            >
+        <TableRow>
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:gravity="center_horizontal"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:layout_span="6"
+                      android:text="layout_span"/>
+        </TableRow>
+        <TableRow>
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="layout_span=3"
+                    android:layout_span="3"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="layout_span=2"
+                    android:layout_span="2"
+                    />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

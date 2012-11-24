@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#fff">
+    <TableLayout android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:stretchColumns="*"
+                 android:background="#000">
+        <TableRow>
+            <TextView android:textColor="#fff"
+                      android:textStyle="bold"
+                      android:gravity="center_horizontal"
+                      android:background="#7fc342"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:layout_span="3"
+                      android:text="Статистика"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:background="#fff"
+                      android:layout_margin="1dip"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#36a300"
+                      android:gravity="center_horizontal"
+                      android:text="1 столбец"/>
+            <TextView android:background="#fff"
+                      android:layout_margin="1dip"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#36a300"
+                      android:gravity="center_horizontal"
+                      android:text="2 столбец"/>
+            <TextView android:background="#fff"
+                      android:layout_margin="1dip"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#36a300"
+                      android:gravity="center_horizontal"
+                      android:text="3 столбец"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:background="#ccc"
+                      android:layout_margin="1dip"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#36a300"
+                      android:gravity="center_horizontal"
+                      android:text="1 столбец"/>
+            <TextView android:background="#ccc"
+                      android:layout_margin="1dip"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#36a300"
+                      android:gravity="center_horizontal"
+                      android:text="2 столбец"/>
+            <TextView android:background="#ccc"
+                      android:layout_margin="1dip"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:textColor="#36a300"
+                      android:gravity="center_horizontal"
+                      android:text="3 столбец"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
